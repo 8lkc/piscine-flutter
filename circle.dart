@@ -8,10 +8,10 @@ class Circle {
   Circle(this.x, this.y, this.radius);
 
   // Getters:
-  double area() { return pi * radius * radius; }
-  double perimeter() { return 2 * pi * radius; }
-  double rightMostCoordinate() { return x + radius; }
-  double leftMostCoordinate() { return x - radius; }
-  double highestCoordinate() { return y + radius; }
-  double lowestCoordinate() { return y - radius; }
+  double get area => pi * radius * radius;
+  double get perimeter => 2 * pi * radius;
+  double get rightMostCoordinate => x + radius;
+  double get leftMostCoordinate => x - radius;
+  double get highestCoordinate => y + radius;
+  double get lowestCoordinate => y - radius;
 }
